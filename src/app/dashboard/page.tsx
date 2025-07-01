@@ -1,9 +1,9 @@
-import Container from "@/components/shared/container";
+import { ChatInterface } from '@/components/ChatInterface'
 
-export default function Page() {
+export default function Home() {
   return (
-    <Container title="Dashboard">
-      <h1>Dashboard</h1>
-    </Container>
-  );
+    <div className="h-screen w-full">
+      <ChatInterface />
+    </div>
+  )
 }
