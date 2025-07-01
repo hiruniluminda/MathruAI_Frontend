@@ -1,6 +1,8 @@
+// types/chat.ts
+
 export interface ChatSession {
   session_id: number
-  session_name: string
+  session_name: string | null
   created_at: string
   last_message_at: string
   message_count: number
